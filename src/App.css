@@ -1,0 +1,40 @@
+.content{
+
+  width: '100vw';
+  height: '500px';
+  display: flex;
+  border-top: 20px;
+  border-top: 4px solid #ff4d6d;     
+  border-bottom: 4px solid #ff4d6d;  
+  border-left: none;
+  border-right: none;
+
+}
+.spline{
+  flex:3;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  max-height: 100vh;
+  overflow: hidden;
+  background: rgba(0,0,0,0.3);
+
+}
+
+.word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
+}
